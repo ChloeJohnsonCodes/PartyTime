@@ -22,12 +22,10 @@ public class AudioPlayer: NSObject {
     
     @objc func playSound() {
         audioPlayer?.play()
-        print("playing")
     }
     
     @objc func pauseSound() {
         audioPlayer?.pause()
-        print("pausing")
     }
     
     @objc func stopSound() {

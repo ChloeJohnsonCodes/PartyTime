@@ -32,6 +32,7 @@ AudioPlayer *audio;
     strobeOn = NO;
     colorOn = NO;
     soundOn = NO;
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 -(IBAction)turnOnTorch {
